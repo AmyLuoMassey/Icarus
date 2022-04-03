@@ -13,12 +13,17 @@
 
     <fragment
         android:id="@+id/nav_location"
-        android:name="project.com.icarus.ui.gallery.GalleryFragment"
+        android:name="project.com.icarus.ui.location.LocationFragment"
         android:label="@string/menu_location"
         tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/nav_barcode"
+        android:name="project.com.icarus.ui.barcode.BarcodeFragment"
+        android:label="@string/menu_barcode"
+        tools:layout="@layout/fragment_barcode" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_reporting"
         android:name="project.com.icarus.ui.Reporting.ReportingFragment"
         android:label="@string/menu_reporting"
         tools:layout="@layout/fragment_reporting" />

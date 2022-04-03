@@ -1,16 +1,15 @@
-package project.com.icarus.ui.location;
+package project.com.icarus.ui.barcode;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class LocationViewModel extends ViewModel {
-
+public class BarcodeViewModel extends ViewModel {
     private MutableLiveData<String> mText;
 
-    public LocationViewModel() {
+    public BarcodeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is location fragment");
+        mText.setValue("This is home fragment");
     }
 
     public LiveData<String> getText() {
