@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Icarus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_admin">Admin</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_warehouse">Warehouse</string>
+    <string name="menu_reporting">Reporting</string>
+    <string name="menu_barcode">Barcode</string>
+    <string name="menu_task">Task</string>
+    <string name="your_name">Login Name (eg User1)</string>
+    <string name="your_password">Enter Password</string>
+
+    <string name="confirm_password">Confirm Password</string>
+    <string name="user_role">Select User Role</string>
+
+    <string name="barcode">Enter Barcode, Press Button to scan</string>
+    <string name="itemDesc">Enter Item Description</string>
+    <string name="itemName">Enter Name of Item</string>
+    <string name="itemButton">Add New Item</string>
+    <string name="itemUnits">Enter Number of Units</string>
+    <string name="itemPrice">Enter Price of Item</string>
+    <string name="taskButton">Add New Task</string>
+    <string name="addItemTitle">Add Item</string>
+    <string name="editItemTitle">Edit Item</string>
+    <string name="addTaskTitle">Add Task</string>
+    <string name="editTaskTitle">Edit Task</string>
+    <string name="scheduledDate">Enter Completion Date</string>
+    <string name="taskName">Enter Name of Task</string>
+    <string name="taskDesc">Enter Task Description</string>
+    <string name="user_task">Assign to User</string>
+    <string name="user_name">User Dropdown</string>
+
+
+    <string name="location_name">Enter name of Location</string>
+    <string name="location_desc">Enter description of Location</string>
+
+    <string name="barcode_number">--Barcode Number--</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

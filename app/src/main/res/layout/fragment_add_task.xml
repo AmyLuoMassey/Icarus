@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.task.TaskFragment">
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:padding="5dp"
+            android:text="@string/addTaskTitle"
+            android:textSize="22sp" />
+
+
+        <EditText
+            android:id="@+id/txt_taskName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_above="@id/txt_scheduleDate"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/taskName"
+            android:inputType="textLongMessage"
+            android:padding="15dp"
+
+            android:textSize="15sp" />
+
+
+
+        <EditText
+            android:id="@+id/txt_scheduleDate"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_above="@id/txt_taskDescription"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/scheduledDate"
+            android:inputType="text|date"
+            android:padding="15dp"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnCalendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/txt_taskDescription"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_toRightOf="@id/txt_scheduleDate"
+            android:minWidth="48dp"
+            android:minHeight="10dp"
+            android:padding="10dp"
+            android:text=">"
+            android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/txt_taskDescription"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/taskDesc"
+            android:inputType="textCapSentences|textNoSuggestions|textMultiLine"
+            android:padding="15dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_user_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_taskDescription"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="5dp"
+            android:text="@string/user_task"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/dropdown_user"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/txt_taskDescription"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:contentDescription="@string/user_name"
+            android:layout_toRightOf="@id/txt_user_task"
+            android:spinnerMode="dropdown"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:id="@+id/btnTaskConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dropdown_user"
+
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:minWidth="150dp"
+            android:minHeight="80dp"
+            android:padding="15dp"
+            android:text="Confirm"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnTaskCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dropdown_user"
+            android:layout_toRightOf="@id/btnTaskConfirm"
+
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="2dp"
+            android:minWidth="150dp"
+            android:minHeight="80dp"
+            android:padding="15dp"
+            android:text="Cancel"
+            android:textColor="#fff" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="project.com.icarus.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_admin"
+        android:name="project.com.icarus.ui.admin.AdminFragment"
+        android:label="@string/menu_admin"
+        tools:layout="@layout/fragment_admin" />
+
+    <fragment
+        android:id="@+id/nav_warehouse"
+        android:name="project.com.icarus.ui.warehouse.WarehouseFragment"
+        android:label="@string/menu_warehouse"
+        tools:layout="@layout/fragment_warehouse" />
+    <fragment
+        android:id="@+id/nav_task"
+        android:name="project.com.icarus.ui.task.TaskFragment"
+        android:label="@string/menu_task"
+        tools:layout="@layout/fragment_task" />
+
+    <fragment
+        android:id="@+id/nav_reporting"
+        android:name="project.com.icarus.ui.reporting.ReportingFragment"
+        android:label="@string/menu_reporting"
+        tools:layout="@layout/fragment_reporting" />
+</navigation>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txt_loc_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Add Location"
+
+        android:textSize="22sp" />
+
+
+
+    <EditText
+        android:id="@+id/txt_loc_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/txt_loc_desc"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/location_name"
+        android:inputType="textShortMessage"
+        android:padding="15dp"
+
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/txt_loc_desc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/location_desc"
+        android:inputType="textCapSentences|textNoSuggestions|textMultiLine"
+        android:padding="15dp"
+        android:singleLine="false"
+        android:textSize="15sp" />
+
+
+
+    <Button
+        android:id="@+id/btnLocConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_loc_desc"
+
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:minWidth="150dp"
+        android:minHeight="80dp"
+        android:padding="15dp"
+        android:text="Confirm"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnLocCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_loc_desc"
+        android:layout_marginStart="60dp"
+
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toRightOf="@id/btnLocConfirm"
+        android:minWidth="150dp"
+        android:minHeight="80dp"
+        android:padding="15dp"
+        android:text="Cancel"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>
