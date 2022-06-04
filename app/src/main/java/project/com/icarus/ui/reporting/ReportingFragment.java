@@ -89,19 +89,6 @@ public class ReportingFragment extends Fragment {
         }
 
 
-
-
-
-
-
-        // adding new entry to our array list with bar
-        // entry and passing x and y axis value to it.
-        //barEntriesArrayList.add(new BarEntry(1f, 4));
-       // barEntriesArrayList.add(new BarEntry(2f, 6));
-       // barEntriesArrayList.add(new BarEntry(3f, 8));
-      //  barEntriesArrayList.add(new BarEntry(4f, 2));
-       // barEntriesArrayList.add(new BarEntry(5f, 4));
-      //  barEntriesArrayList.add(new BarEntry(6f, 1));
     }
 }
 

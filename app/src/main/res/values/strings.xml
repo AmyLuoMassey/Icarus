@@ -26,6 +26,7 @@
     <string name="itemUnits">Enter Number of Units</string>
     <string name="itemPrice">Enter Price of Item</string>
     <string name="taskButton">Add New Task</string>
+    <string name="addUserTitle">Add User</string>
     <string name="addItemTitle">Add Item</string>
     <string name="editItemTitle">Edit Item</string>
     <string name="addTaskTitle">Add Task</string>
@@ -35,6 +36,9 @@
     <string name="taskDesc">Enter Task Description</string>
     <string name="user_task">Assign to User</string>
     <string name="user_name">User Dropdown</string>
+    <string name="test">test</string>
+
+
 
 
     <string name="location_name">Enter name of Location</string>
